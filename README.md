@@ -3,13 +3,32 @@
 ## Instructions
 ---
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
-		
+
 	* Variables
+
+--Containers that hold data and can be used in the program. You can name them intuitive things so that your code is easy to understand and manipulate them in many ways so that you can make the program do complex things.
+
 	* Strings
+
+--A sequence of characters (letters or otherwise). There are usually things you can do with this, like display it to the user, count the characters in it or manipulate it and make it into something different.
+
 	* Functions (arguments, `return`)
+
+--Functions: A block of code that can be re-used over and over again by using its name, rather than writing out the block of code every time that task needs to be done.
+--Arguments: Information given to the function, if it needs it. Ex: A function that calculates how old a given age would be if it was five years older. The age needs to be given in the arguments.
+--Return: Information the function gives back when it is done running. In the previous example, that would be age + 5.
+
 	* `if` statements
+
+--This allows the program to "make a choice" depending on the data given. You can tell the program "if something is true" then "do something else", "if another thing is true" then "do another something else" or even "if none of that is true" then "do a different something else". This lets the program act a variety of different ways depending on the circumstances.
+
 	* Boolean values (`true`, `false`)
 
+--Boolean is a type that only has two values: true and false. If something is not true, it's false. If it's not false, it's true. This information can be stored in a variable (likesCake = true) and other things. They are important for if statements because that is how it checks to see if a line of code will run:
+if (true)
+if (likesCake)
+if (age > 21)
+etc...
 
 2. Install Node and NPM.  NPM comes packaged with Node. https://nodejs.org/en/download/
 
